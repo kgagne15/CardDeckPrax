@@ -1,11 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import CardDeck from './CardDeck';
+import CardDeckOne from './CardDeckOne';
+import CardDeckTwo from './CardDeckTwo';
 
 function App() {
   return (
     <div className="App">
-      <CardDeck />
+      {/* <CardDeckOne /> */}
+      <CardDeckTwo/>
     </div>
   );
 }

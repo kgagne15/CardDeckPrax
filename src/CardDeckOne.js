@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
-const CardDeck = () => {
+const CardDeckOne = () => {
     const [deck, setDeck] = useState(null)
     const [card, setCard] = useState(null)
     const [remaining, setRemaining] = useState(null)
@@ -31,4 +31,4 @@ const CardDeck = () => {
     )
 }
 
-export default CardDeck; 
+export default CardDeckOne; 
